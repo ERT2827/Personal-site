@@ -1,0 +1,83 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.topBox{
+    width: 90vw;
+    height: auto;
+    margin: 0 5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topBox img{
+    width: 30vw;
+    border-radius: 15px;
+}
+
+.about{
+    width: 90vw;
+    margin: 5rem 5vw 10rem;
+    border-top: 5px solid steelblue;
+}
+
+.about p{
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.dualHolder{
+    flex-direction: row;
+    display: flex;
+    margin-left: 2rem;
+    width: 90vw;
+    margin: 0 5vw;
+    border-top: 5px solid steelblue;
+}
+
+.dualHolder section{
+    width: 38vw;
+    margin-right: 4vw;
+}
+
+.dualHolder img{
+    width: 11vw;
+    margin-left: 4rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.dualHolder ul{
+    border-right: 5px solid steelblue;
+    font-size: 1rem;
+    padding: 0 0 8rem 2rem;
+}
+
+.dualHolder p{
+    font-size: 1rem;
+}
+
+.Contacts{
+    width: 80vw;
+    height: auto;
+    margin: 0 5vw;
+    display: block;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top: 5px solid steelblue;
+    border-bottom: 5px solid steelblue;
+    padding: 0 5vw 3rem;
+}
+
+.Contacts h2{
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.Contacts img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.7rem;
+    margin-left: 2rem;
+}
